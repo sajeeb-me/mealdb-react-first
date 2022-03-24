@@ -1,0 +1,15 @@
+.meal-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.meal-card{
+    background-color: rgba(255, 68, 0, 0.062);
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.meal-names{
+    background-color: orangered;
+    color: white;
+}
